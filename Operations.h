@@ -7,4 +7,9 @@ int exposant(int nb, int exp);
 
 int factoriel(int nb);
 
+
 int nb_premier(nb);
+
+float Distance(int xa, int xb, int ya, int yb);
+
+

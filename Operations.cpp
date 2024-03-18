@@ -60,4 +60,15 @@ int nb_premier(nb)
 	if(n=1){
 	return 1;
 	}
+
+
+float Distance(int xa, int xb, int ya, int yb)
+{
+	float resultat;
+	
+	resultat = (yb-ya)/(xb-xa);
+	
+	return resultat;
+	
 }
+
