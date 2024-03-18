@@ -34,6 +34,7 @@ float division(float a, float b)
 	return resultat;
 }
 
+
 int factoriel(int nb)
 {
 	int i;
@@ -44,3 +45,13 @@ int factoriel(int nb)
 	}
 	return valeur;
 }
+
+int exposant(int nb, int exp)
+{
+	int resultat;
+	
+	resultat = pow(nb,exp);
+	
+	return resultat;
+}
+
