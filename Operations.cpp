@@ -33,3 +33,12 @@ float division(float a, float b)
 	
 	return resultat;
 }
+int exposant(int nb, int exp)
+{
+	int resultat;
+	
+	resultat = pow(nb,exp);
+	
+	return resultat;
+}
+	
