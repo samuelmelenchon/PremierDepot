@@ -7,3 +7,4 @@ int exposant(int nb, int exp);
 
 int factoriel(int nb);
 
+int nb_premier(nb);
