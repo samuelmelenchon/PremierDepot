@@ -33,6 +33,19 @@ float division(float a, float b)
 	
 	return resultat;
 }
+
+
+int factoriel(int nb)
+{
+	int i;
+	int valeur=1;
+	for(i=1;i<=nb;i++)
+	{
+		valeur=i*valeur;
+	}
+	return valeur;
+}
+
 int exposant(int nb, int exp)
 {
 	int resultat;
@@ -41,6 +54,7 @@ int exposant(int nb, int exp)
 	
 	return resultat;
 }
+
 
 float Distance(int xa, int xb, int ya, int yb)
 {
@@ -51,3 +65,4 @@ float Distance(int xa, int xb, int ya, int yb)
 	return resultat;
 	
 }
+
