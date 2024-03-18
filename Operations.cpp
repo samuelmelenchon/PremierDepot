@@ -55,3 +55,9 @@ int exposant(int nb, int exp)
 	return resultat;
 }
 
+int nb_premier(nb)
+{
+	if(n=1){
+	return 1;
+	}
+}
