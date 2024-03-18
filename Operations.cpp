@@ -55,3 +55,14 @@ int exposant(int nb, int exp)
 	return resultat;
 }
 
+
+float Distance(int xa, int xb, int ya, int yb)
+{
+	float resultat;
+	
+	resultat = (yb-ya)/(xb-xa);
+	
+	return resultat;
+	
+}
+
